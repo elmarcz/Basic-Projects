@@ -1,9 +1,9 @@
-const year = prompt("Enter a year: ");
-const month = prompt("Enter a month: ");
-const day = prompt("Enter a day: ");
-const hour = prompt("Enter an hour: ");
-const seconds = prompt("Enter a second: ");
-const minute = prompt("Enter a minute: ");
+let year = prompt("Enter a year: ");
+let month = prompt("Enter a month: ");
+let day = prompt("Enter a day: ");
+let hour = prompt("Enter an hour: ");
+let minute = prompt("Enter a minute: ");
+let seconds = prompt("Enter a second: ");
 
 simplyCountdown('#cuenta', {
     year: year, // required
